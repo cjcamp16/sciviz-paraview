@@ -1,0 +1,9 @@
+# Preview + data-generation layer (system Python)
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+scikit-image>=0.21
+
+# NOTE: ParaView itself is a separate desktop install (https://www.paraview.org/download/).
+# visualize.py runs under ParaView's bundled interpreter (pvpython / pvbatch),
+# NOT under this environment.
