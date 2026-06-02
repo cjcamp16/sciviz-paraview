@@ -8,6 +8,14 @@ dataset with NumPy, then build and script the visualization pipeline in
 > or professional work. It demonstrates hands-on ParaView and VTK skill on a
 > synthetic-but-physically-motivated dataset.
 
+## Gallery
+
+| Volume rendering (concentration field) | Streamlines (ABC-flow velocity) |
+|---|---|
+| ![Volume rendering of the concentration field](outputs/01_volume.png) | ![ABC-flow streamline tubes colored by speed](outputs/04_streamlines.png) |
+
+![Orbiting render of the field](outputs/orbit.gif)
+
 ## What it shows
 
 The dataset lives on a 64×64×64 regular grid and carries two fields:
